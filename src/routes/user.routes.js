@@ -5,7 +5,7 @@ const usercontrollers = require('../controllers/user.controllers')
 
 
 
-router.get('/oi',usercontrollers.soma)
+router.post('/',usercontrollers.create)
 
 
 
