@@ -8,7 +8,14 @@ const create = (req, res) => {
   }
 
 
-  res.status(200).json('ok');
+  res.status(201).json({
+    messagem:"create usuário",
+    user:{name, 
+      username,
+      email,
+      passworld,
+      avatar
+  }});
 };
 
 module.exports = { create };
